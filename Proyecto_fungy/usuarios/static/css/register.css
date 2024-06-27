@@ -1,0 +1,57 @@
+
+
+#img_fondos{
+        background-image: url('../img/fondo_ventas.jpg');
+    }
+
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type=text], input[type=password], input[type=email], textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: calc(100% - 22px); /* Adjust width to account for padding and border */
+        }
+        button {
+            padding: 10px;
+            background-color: #8E5A37;;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            
+        }
+        button:hover {
+            background-color: #a47e0d;
+        }
+        .register {
+            display: block;
+            color: #8E5A37;;
+            text-align: center;
+            margin-top: 20px;
+        }
+ 

@@ -1,0 +1,298 @@
+.navbar {
+    background-image: url('/static/img/Recurso\ 2.png');
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  
+  .navbar.btn { 
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
+  .navbar a{
+    color: white;
+    font-size: 25px;
+  }
+  
+  .btn {
+    margin: 50px 1.5%;
+  }
+  
+  .navbar a:hover {
+    background-color: #000000;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .login,
+  .signup {
+    border-radius: 0px 0px 20px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #8E5A37;
+    padding: 10px 10px;
+    margin: 20px 4%;
+  }
+
+  .btnInicio{
+    color: #8E5A37;
+    margin-left: 5%;
+  }
+
+  .carrito{
+    margin: 2%;
+  }
+
+  .bi-cart2{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .logo{
+    border-radius: 100px;
+    height: 80%;
+  }
+
+  /* responsivo de la navbar */
+
+  @media only screen and (min-width: 1600px) and (max-width: 1699px){
+
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+      margin: 5%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .navbar a{
+      color: white;
+      font-size: 19px;
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+
+    }
+    
+    .btnInicio{
+      color: #c77222;
+    }
+    
+    .carrito{
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) and (max-width: 1599px){
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+      margin: 4%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .navbar a{
+      color: white;
+      font-size: 17px;
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+
+    }
+    
+    .btnInicio{
+      color: #c77222;
+
+    }
+    
+    .carrito{
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) and (max-width: 1499px){
+
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+      margin: 5%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .navbar a{
+      color: white;
+      font-size: 16px;
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+
+    }
+    
+    .btnInicio{
+      color: #c77222;
+
+    }
+    
+    .carrito{
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+  }
+
+  @media only screen and (min-width: 1300px) and (max-width: 1399px){
+
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+      margin: 5%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .navbar a{
+      color: white;
+      font-size: 13px;
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .btnInicio{
+      color: #c77222;
+
+    }
+    
+    .carrito{
+      margin: 2%; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+    
+  
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1299px){
+
+    .navbar{
+      gap: -3px;
+    }
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+    }
+  
+    .navbar a{
+      color: white;
+      font-size: 12px;
+      
+    }
+
+  
+    .btnInicio{
+      color: #c77222;
+      margin-left: 5%;
+    }
+  
+    .carrito{
+      margin: 2%;
+    }
+  
+  
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+  }
+
+  @media only screen and (min-width: 1100px) and (max-width: 1199px){
+    .navbar{
+
+      height: 110px;
+    }
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+    }
+  
+    .navbar a{
+      color: white;
+      font-size: 12px;
+      
+    }
+
+  
+    .btnInicio{
+      color: #c77222;
+      margin-left: 5%;
+    }
+  
+    .carrito{
+      margin: 2%;
+    }
+  
+  
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) and (max-width: 1099px){
+
+    .navbar{
+      gap: -3px;
+      height: 150px;
+    }
+
+    .navbar.btn { 
+      display: block;
+      text-decoration: none;
+    }
+  
+    .navbar a{
+      color: white;
+      font-size: 9px;
+      
+    }
+
+  
+    .btnInicio{
+      color: #c77222;
+      margin-left: 5%;
+    }
+  
+    .carrito{
+      margin: 2%;
+    }
+  
+  
+    .logo{
+      border-radius: 100px;
+      height: 60%;
+      margin-left: 1%;
+    }
+  }

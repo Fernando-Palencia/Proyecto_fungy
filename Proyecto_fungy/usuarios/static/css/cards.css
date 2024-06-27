@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    justify-content: space-evenly; /* Esto añade espacio entre las tarjetas */
+    margin-top: 3%;
+}
+
+#img_fondo{
+    background-image: url('/static/img/fonfo_ventas.jpg');
+    background-size: 100vw auto; /* Esto hace que la imagen de fondo cubra todo el ancho y se ajuste automáticamente en altura */
+    background-repeat: no-repeat; /* Esto evita que la imagen de fondo se repita */
+    width: 100vw; /* Esto hace que el contenedor ocupe todo el ancho de la pantalla */
+}
+
+.card{
+    margin-top: 20%;
+    width: 20%;
+    margin: 20px;
+    border-radius: 45px 5px 5px 5px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ .card figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+    text-align: justify;
+}
+
+.card .contenido h3{
+     font-weight: 400;
+     margin-bottom: 15px;
+}
+
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #DCB43A;
+    border: 1px solid #DCB43A;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+    background: #DCB43A;
+    color: #fff;
+}
+
+#miBotonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#miBoton {
+    color: #ffffff;
+    border-radius: 20px;
+    margin-top: -2%;
+    border-color: #000000;
+    background-color: #ef8420;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
+    .card{
+        height: 400px;
+    }
+
+    .card .contenido h3{
+        margin-bottom: 15px;
+        font-size: 20px;
+   }
+
+   .card .contenido p{
+    font-size: 10px;
+
+
+}
+
+    
+}

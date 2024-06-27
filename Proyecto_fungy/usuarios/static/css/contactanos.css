@@ -1,0 +1,923 @@
+
+.contactanos{
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  color: #8E5A37;
+}
+
+/* formulario*/
+
+/* #img_fondo{
+  background-image: url('../img/fondo_ventas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+} */
+
+.formulario {
+  max-width: 400px;
+  margin: 0px auto;
+  float: left; /* Añade esta línea */
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+  color: #8E5A37;
+}
+
+.bi-envelope-at-fill{
+  color: #8E5A37;
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.float-right {
+  float: left;
+}
+
+.label1, textarea{
+  float: right;
+  margin-right: -280%;
+  border-radius: 25px;
+  margin-top: -84%;
+  width: 150%;
+  height: 320px;
+}
+
+.texto-adicional {
+  background-image: url('/static/img/pie_pagina2.jpg');
+  padding: 12%;
+  width: 100%;
+  text-align: center;
+  margin-top:30%; 
+  height: 80px;
+}
+
+.logo2{
+  height: 250px;
+  margin-top: -10%;
+}
+
+.copyright{
+  margin-top: 2%;
+}
+/* 
+@media only screen and (max-width: 1299px) {
+  .navbar {
+    height: 40%;
+  }
+
+  .navbar.btn { 
+    padding: 10px 12px;
+  }
+
+  .btn {
+    margin: 60px 2%;
+  }
+
+  .login,
+  .signup {
+    font-size: 16px;
+    padding: 8px 8px;
+    margin: 10px 2%;
+  }
+
+  .logo{
+    width: 130px;
+    margin-right: 4%;
+  }
+}  */
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 16%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 5%;
+    margin-top: -14%;  
+}
+
+.navbar {
+  height: 30%;
+}
+
+.navbar.btn { 
+  padding: 15px 14px;
+}
+
+.btn {
+  margin: 70px 3%;
+}
+
+.login,
+.signup {
+  font-size: 16px;
+  padding: 8px 8px;
+  margin: 15px 4%;
+}
+
+.logo{
+  width: 140px;
+  margin-right: 7%;
+}
+.linea {
+  border-top: 3px solid #002A5C;
+  margin-left:auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 22%;
+}
+
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 400px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -250%;
+  border-radius: 25px;
+  margin-top: -82%;
+  width: 160%;
+  height: 350px;
+}
+.texto-adicional {
+  background-image: url('/static/img/fondo_2.jpg');
+  padding: 12%;
+  width: 100%;
+  text-align: center;
+  margin-top:38%; 
+  height: 80px;
+}
+
+.logo2{
+  height: 230px;
+  margin-top: -10%;
+}
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1499px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 16%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 5%;
+    margin-top: -14%;  
+}
+
+.navbar {
+  height: 30%;
+}
+
+.navbar.btn { 
+  padding: 15px 14px;
+}
+
+.btn {
+  margin: 70px 3%;
+}
+
+.login,
+.signup {
+  font-size: 16px;
+  padding: 8px 8px;
+  margin: 15px 4%;
+}
+
+.logo{
+  width: 140px;
+  margin-right: 7%;
+}
+.linea {
+  border-top: 3px solid #002A5C;
+  margin-left:auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 25%;
+}
+
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 350px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -270%;
+  margin-top: -95%;
+  width: 190%;
+  height: 350px;
+}
+.texto-adicional {
+  padding: 12%;
+  width: 100%;
+  margin-top:38%; 
+  height: 80px;
+}
+
+.logo2{
+  height: 220px;
+  margin-top: -10%;
+}
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 14%;
+    margin-top: 8%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 14%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 10%;
+    margin-top: -16%;  
+}
+
+.navbar {
+  height: 30%;
+}
+
+.navbar.btn { 
+  padding: 15px 14px;
+}
+
+.btn {
+  margin: 70px 3%;
+}
+
+.login,
+.signup {
+  font-size: 16px;
+  padding: 8px 8px;
+  margin: 15px 4%;
+}
+
+.logo{
+  width: 140px;
+  margin-right: 7%;
+}
+
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 300px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -300%;
+  border-radius: 25px;
+  margin-top: -110%;
+  width: 200%;
+  height: 350px;
+}
+.texto-adicional {
+  padding: 12%;
+  width: 100%;
+  margin-top:40%; 
+  height: 80px;
+}
+
+.logo2{
+  height: 220px;
+  margin-top: -12%;
+}
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 14%;
+    margin-top: 8%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 14%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 10%;
+    margin-top: -14%;  
+}
+
+.linea {
+  border-top: 3px solid #002A5C;
+  margin-left:auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 25%;
+}
+
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 300px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -270%;
+  border-radius: 25px;
+  margin-top: -110%;
+  width: 180%;
+  height: 350px;
+}
+.texto-adicional {
+  padding: 12%;
+  width: 100%;
+  height:20px;
+  margin-top:44%; 
+}
+
+.logo2{
+  height: 200px;
+  margin-top: -13%;
+}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 16%;
+    margin-top: 10%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 16%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 15%;
+    margin-top: -13%;  
+}
+img{ 
+  width: 50%;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 300px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -235%;
+  border-radius: 25px;
+  margin-top: -110%;
+  width: 150%;
+  height: 330px;
+}
+.texto-adicional {
+  padding: 12%;
+  width: 100%;
+  margin-top:48%; 
+  height: 110px;
+}
+
+.logo2{
+  height: 180px;
+  margin-top: -12%;
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1099px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 16%;
+    margin-top: 10%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 16%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 15%;
+    margin-top: -13%;  
+}
+
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 300px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -210%;
+  border-radius: 25px;
+  margin-top: -110%;
+  width: 120%;
+  height: 320px;
+}
+.texto-adicional {
+  padding: 12%;
+  width: 100%;
+  margin-top:50%; 
+  height: 80px;
+}
+
+.logo2{
+  height: 170px;
+  margin-top: -13%;
+}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px){
+
+  .titulo h1 {
+    font-size: 2vw;
+    margin-left: 16%;
+    margin-top: 10%;
+  }
+  
+  .titulo p {
+    font-size: 1vw;
+    margin-left: 16%;
+    margin-top: 3%;
+  }
+
+  .imgNosotros{
+    display: flex;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    justify-content:flex-end;
+    float: right;
+    margin-right: 15%;
+    margin-top: -13%;  
+}
+img{ 
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px;
+  max-width: 100%;
+  height: auto;
+}
+/* aqui empezamos a editar el formulario responsive*/
+
+.formulario {
+  max-width: 300px;
+  margin: 0px auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form i{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px; /* mueve los iconos dentro de la caja de formularios*/
+  width: 50px;
+}
+
+.bi-person-lines-fill{
+  font-size: 35px;
+}
+
+.bi-envelope-at-fill{
+  margin-top: 3px;
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 150%;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding-left: 80px; /* mueve el placeholder a la derecha */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+}
+
+.float-right {
+  float: left;
+}
+.label1, textarea{
+  float: right;
+  margin-right: -180%;
+  border-radius: 25px;
+  margin-top: -110%;
+  width: 100%;
+  height: 320px;
+}
+.texto-adicional {
+  padding: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top:55%; 
+}
+}
+  
+  

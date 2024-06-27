@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'css/productos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/paso_pasos.css/paso_paso.css' %}">
+    <link rel="stylesheet" href="{% static 'css/paso_pasos.css/paso_paso_2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/paso_pasos.css/paso_paso_3.css' %}">
+    <link rel="stylesheet" href="{% static 'css/paso_pasos.css/paso_paso_4.css' %}">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img class="logo" src="{% static 'img/logo1.1.svg' %}" alt="logo" />
+        <a href="{% url 'index' %}" class="btn Inicio">Inicio</a>
+        <a href="{% url 'listar_productos' %}" class="btn">Productos</a>
+        <a href="{% url 'paso_paso' %}" class="btn">Paso a paso</a>
+        <a href="{% url 'capacitaciones' %}" class="btn">Capacitaciones</a>
+        <a href="{% url 'conocenos' %}" class="btn">Conocenos</a>
+        <a href="{% url 'blog' %}" class="btn">Blog</a>
+        <div class="carrito"><i class="bi bi-cart2"></i></div>
+        <a href="{% url 'login' %}" class="login">Iniciar Sesion</a>
+      </div>
+    </header>
+
+    <div id="img_fondo">
+      <ul class="titulo">
+        <li>Pasos para el uso de tu</li>
+        <li class="kit">Kit Fungi</li>
+      </ul>
+      <ul class="subti">
+        <li>¿Qué contiene el kit?</li>
+
+        <p>
+          Viene con el sustrato 100% colonizado con la variedad de tu<br />
+          preferencia a base de fibra de coco, trae un atomizador, una<br />
+          bolsa de frucificación con un agujero y la caja de empaque.
+        </p>
+
+        <li class="subt">¿Cuánto tarda en crecer la primera cosecha?</li>
+        <li class="fecha">
+          20 a 30 <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;días
+        </li>
+      </ul>
+      <div class="img_pequena">
+        <img src="{% static 'img/producto1.png' %}" alt="Imagen pequena" />
+      </div>
+
+      <div class="linea"></div>
+
+      <div class="subti2">
+        <ul>
+          <li>¿Qué necesita una seta para crecer?</li>
+        </ul>
+      </div>
+      <div class="iconos">
+        <i class="bi bi-shield-fill">
+          <p class="tex">Higiene</p>
+        </i>
+        <i class="bi bi-brightness-high-fill">
+          <p class="tex">Luz indirecta</p>
+        </i>
+        <i class="bi bi-wind">
+          <p class="tex">Ventilación</p>
+        </i>
+        <i class="bi bi-moisture">
+          <p class="tex">Humedad constante</p>
+        </i>
+      </div>
+    </div>
+
+    <div id="img_fondo2">
+      <div class="container">
+        <div class="izquierda">
+          <ul>
+            <li class="titulo_l">¿Cuáles son los pasos?</li>
+            <span class="nun1">1.</span>
+            <p>
+              Retirar la tapa del envase donde se encuentra <br />
+              el sustrato.
+            </p>
+            <span class="nun2">2.</span>
+            <p>
+              Rociar por dentro de la bolsa de fructificación <br />
+              con abundante agua una vez al día, con las <br />
+              manos limpias. El agua debe de ser de botella <br />
+              o de bolsa, no de grifo ni agua hervida.
+            </p>
+            <span class="nun3">3.</span>
+            <p>
+              Ubicar el kit en un lugar alto, evitando <br />el polvo o
+              cualquier tipo de contaminación.
+            </p>
+            <span class="nun4">4.</span>
+            <p>Esperar hasta que salgan las setas.</p>
+          </ul>
+        </div>
+        <div class="linea-vertical"></div>
+        <div class="derecha">
+          <ul>
+            <li class="titulo_r">¿Cuándo debo cosechar?</li>
+            <span class="nun5">5.</span>
+            <p>
+              Debes cosechar cuando el sombrero de la seta se abra en su
+              totalidad.
+            </p>
+            <span class="nun6">6.</span>
+            <p>
+              No cortes la seta. Arráncalos desde la base, moviéndolos de un
+              lado al otro, o gíralos como si estuvieras aflojando un tornillo.
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="img_fondo3">
+      <div class="container2">
+        <div class="subti3">
+          <ul>
+            <li class="sugerencia">¿Qué sugerencias me puedes dar?</li>
+          </ul>
+        </div>
+        <div class="text123">
+          <ul>
+            <li class="nun_1">1.</li>
+            <p>Uso de guantes.</p>
+            <li class="nun_2">2.</li>
+            <p>
+              Desinfectar la superficie con alcohol donde <br />
+              se ubicará el sustrato .
+            </p>
+            <li class="nun_3">3.</li>
+            <p>
+              A la hora de re􀆟rar la tapa del envase, ten en <br />
+              cuenta que no debes de tocar el sustrato.
+            </p>
+          </ul>
+        </div>
+        <div class="text45">
+          <ul>
+            <li class="nun_4">4.</li>
+            <p>
+              El kit viene a temperatura ambiente no necesita
+              <br />calefacción.
+            </p>
+            <li class="nun_5">5.</li>
+            <p>
+              Atomizar 50 veces una vez al día por dentro <br />
+              de la bolsa de fruc􀆟ficación.
+            </p>
+          </ul>
+        </div>
+        <div class="text67">
+          <ul>
+            <li class="nun_6">6.</li>
+            <p>
+              Mantenerlo en un lugar ventilado y fresco <br />, preferiblemente
+              cerca a una ventana para <br />
+              que le de luz indirecta.
+            </p>
+            <li class="nun_7">7.</li>
+            <p>
+              La bolsa debe de estar cerrada durante toda <br />
+              la cosecha para mantener la humedad.
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="img_fondo4">
+      <div class="conten">
+        <ul>
+          <h1>¿Cómo reactivo mi kit?</h1>
+          <p>
+            Una vez hayas arrancado todas las setas, atomiza el sustrato hasta
+            <br />
+            que lo veas húmedo en su totalidad, cierra la bolsa hermé􀆟ca y
+            <br />
+            espera a que salgan los primordios. <br />
+            <br />No te olvides de mantener humedad, ven􀆟lación y luz <br />
+            indirecta.
+          </p>
+        </ul>
+      </div>
+      <div class="img_pequena2">
+        <img src="{% static 'img/mi_kit.png' %}" alt="Imagen pequena" />
+      </div>
+      <div class="linea-vertical2"></div>
+    </div>
+
+    <div class="texto-adicional">
+      <img class="logo2" src="{% static 'img/logo1.1.svg' %}" alt="logo">
+      <p class="copyright"> &copy; 2024 POR TEGIDO FUNGI<br></p>
+  </div>
+
+    <script src="{% static 'js/slider.js' %}"></script>
+    <script src="{% static 'js/vennta.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>

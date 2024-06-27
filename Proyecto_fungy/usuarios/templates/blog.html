@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'css/productos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img class="logo" src="{% static 'img/logo1.1.svg' %}" alt="logo" />
+        <a href="{% url 'index' %}" class="btn Inicio">Inicio</a>
+        <a href="{% url 'listar_productos' %}" class="btn">Productos</a>
+        <a href="{% url 'paso_paso' %}" class="btn">Paso a paso</a>
+        <a href="{% url 'capacitaciones' %}" class="btn">Capacitaciones</a>
+        <a href="{% url 'conocenos' %}" class="btn">Conocenos</a>
+        <a href="{% url 'blog' %}" class="btn">Blog</a>
+        <div class="carrito"><i class="bi bi-cart2"></i></div>
+        <a href="" class="login">Iniciar Sesion</a>
+      </div>
+    </header>
+
+    <div id="fondo_blog">
+      <div class="titulo">
+        <h1>Articulos</h1>
+        <h2>que te pueden interesar</h2>
+      </div>
+      <div id="miSeccion">
+        <div class="card">
+            <figure>
+                <img src="{% static 'img/blog_3.jpeg' %}" alt="plantas y muebles">
+            </figure>
+            <div class="contenido">
+                <h3>21/10/2022</h3>
+                <p>Ataúd ecológico: funeraria
+                  ofrece esta alternativa hecha
+                  con hongos.</p>
+                <a href="">Ver Más</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="{% static 'img/blog_2.jpeg' %}"  alt="plantas y muebles">
+            </figure>
+            <div class="contenido">
+                <h3>20/01/2021</h3>
+                <p>Hormigas granjeras, una fabrica
+                  subterránea de medicamentos.</p>
+                <a href="">Ver Más</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <figure>
+                <img src="{% static 'img/blog_3.jpeg' %}" alt="plantas y muebles">
+            </figure>
+            <div class="contenido">
+                <h3>29/03/2019</h3>
+                <p>El hongo asesino de 500 especies
+                  de anfibios.</p>
+                <a href="">Ver Más</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="miSeccion2">
+      <div class="card">
+          <figure>
+              <img src="{% static 'img/blog_3.jpeg' %}" alt="plantas y muebles">
+          </figure>
+          <div class="contenido">
+              <h3>21/10/2022</h3>
+              <p>Ataúd ecológico: funeraria
+                ofrece esta alternativa hecha
+                con hongos.</p>
+              <a href="">Ver Más</a>
+          </div>
+      </div>
+      <div class="card">
+          <figure>
+              <img src="{% static 'img/blog_2.jpeg' %}"  alt="plantas y muebles">
+          </figure>
+          <div class="contenido">
+              <h3>20/01/2021</h3>
+              <p>Hormigas granjeras, una fabrica
+                subterránea de medicamentos.</p>
+              <a href="">Ver Más</a>
+          </div>
+      </div>
+
+      <div class="card">
+          <figure>
+              <img src="{% static 'img/blog_3.jpeg' %}" alt="plantas y muebles">
+          </figure>
+          <div class="contenido">
+              <h3>29/03/2019</h3>
+              <p>El hongo asesino de 500 especies
+                de anfibios.</p>
+              <a href="">Ver Más</a>
+          </div>
+      </div>
+      
+  </div>
+    </div>
+
+    <div class="texto-adicional">
+      <img class="logo2" src="{% static 'img/logo1.1.svg' %}" alt="logo" />
+      <p class="copyright">&copy; 2024 POR TEGIDO FUNGI<br /></p>
+    </div>
+  </body>
+</html>

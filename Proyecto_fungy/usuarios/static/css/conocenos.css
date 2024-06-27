@@ -1,0 +1,821 @@
+@font-face{
+    font-family: "titulo";
+    src: url("../fonts/calibri-bold.ttf");
+}
+
+@font-face{
+  font-family: "paso";
+  src: url("../fonts/The Constellation.ttf");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#conocenos {
+    position: relative;
+    background-image: url('../img/conocenos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+
+.fondo_conocenos{
+    background-image: url('../img/fondo_ventas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.mission-section {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px;
+    margin-top: 50px;
+  }
+  
+
+  
+  .mission-text h1 {
+    text-align: justify;
+    font-size: 60px;
+    font-family: "titulo";
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #8E5A37;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .mission-text p {
+    text-align: justify;
+    font-size: 25px;
+    color: #999999;
+    hyphens: auto;
+  }
+  
+  .mission-image img {
+    width: 700px;
+    height: 500px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    background-color: #F2F2F2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    color: #8E5A37;
+    font-family: "titulo";
+  }
+
+  .iconos{
+    float: right;
+    position: relative;
+    margin-top: 370px;
+    left: -30px;
+  }
+
+  .iconos i{
+    font-size: 35px;
+    margin: 10px;
+    color: #8E5A37;
+    cursor: pointer;
+  }
+
+  .contenedor-tarjetas {
+    display: flex;
+    gap: 50px; /* Espacio entre las tarjetas */
+    justify-content: center;
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 4%;
+}
+
+.tarjeta {
+    background-image: url('../img/fondo_tarjeta.png');
+    border-radius: 100px 5px 5px 5px;
+    padding: 10px;
+    width: 700px;
+    height: 950px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  position: relative;
+  top: 130px;
+  left: 50px;
+}
+
+.tarjeta h2{
+    margin-top: 200px;
+    font-family: "paso";
+    color: #8E5A37;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    font-family: "paso";
+    margin-top: 20px;
+    color: #8E5A37;
+    font-size: 25px;
+    float: left;
+    margin-left: 100px;
+}
+
+                                                                                    /* tarejetas 2*/
+  
+.img_fondo_3{
+  background-color: #F2F2F2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+  border-top: 20%;
+
+}
+
+.texto-adicional {
+  background-image: url('/static/img/pie_pagina2.jpg');
+  color: white;
+  padding: 12%;
+  width: 100%;
+  text-align: center;
+  margin-top:0%; 
+  height: 80px;
+}
+
+.logo2{
+  height: 250px;
+  margin-top: -10%;
+}
+
+
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px){
+  #conocenos {
+    height: 80vh;
+}
+
+.fondo_conocenos{
+    height: 80vh;
+}
+
+.mission-section {
+    padding: 80px;
+    margin-top: -20px;
+  }
+    
+  .mission-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .mission-text p {
+    font-size: 20px;
+  }
+  
+  .mission-image img {
+    width: 600px;
+    height: 500px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    height: 110vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    top: 80px;
+  }
+
+  .titulo h1{
+    font-size: 40px;
+  }
+
+  .iconos{
+    margin-top: 370px;
+    left: -50px;
+  }
+
+  .iconos i{
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .contenedor-tarjetas {
+    gap: 40px; /* Espacio entre las tarjetas */
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 4%;
+}
+
+.tarjeta {
+    padding: 10px;
+    width: 650px;
+    height: 900px;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  top: 130px;
+  left: 40px;
+  font-size: 50px;
+  width: 250px;
+}
+
+.tarjeta h2{
+    margin-top: 200px;
+    color: #8E5A37;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+                                                                                    /* tarejetas 2*/
+  
+.img_fondo_3{
+  height: 130vh;
+  border-top: 20%;
+
+}
+
+.logo2{
+  height: 200px;
+  margin-top: -10%;
+}     
+}
+@media only screen and (min-width: 1400px) and (max-width: 1499px){
+  #conocenos {
+    height: 75vh;
+}
+
+.fondo_conocenos{
+    height: 80vh;
+}
+
+.mission-section {
+    padding: 80px;
+    margin-top: -20px;
+  }
+    
+  .mission-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+  .mission-text p {
+    font-size: 18px;
+  }
+  
+  .mission-image img {
+    width: 550px;
+    height: 450px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    height: 110vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    top: 80px;
+  }
+
+  .titulo h1{
+    font-size: 38px;
+  }
+
+  .iconos{
+    margin-top: 350px;
+    left: -50px;
+  }
+
+  .iconos i{
+    font-size: 27px;
+    margin: 10px;
+  }
+
+  .contenedor-tarjetas {
+    gap: 40px; /* Espacio entre las tarjetas */
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 4%;
+}
+
+.tarjeta {
+    padding: 10px;
+    width: 620px;
+    height: 870px;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  top: 130px;
+  left: 40px;
+  font-size: 50px;
+  width: 240px;
+}
+
+.tarjeta h2{
+    margin-top: 200px;
+    color: #8E5A37;
+    font-size: 27px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+                                                                                    /* tarejetas 2*/
+  
+.img_fondo_3{
+  height: 130vh;
+  border-top: 20%;
+
+}
+
+.logo2{
+  height: 200px;
+  margin-top: -10%;
+}     
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px){
+  #conocenos {
+    height: 70vh;
+}
+
+.fondo_conocenos{
+    height: 70vh;
+}
+
+.mission-section {
+    margin-top: -20px;
+  }
+    
+  .mission-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .mission-text p {
+    font-size: 15px;
+  }
+  
+  .mission-image img {
+    width: 500px;
+    height: 390px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    height: 110vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    top: 70px;
+  }
+
+  .titulo h1{
+    font-size: 35px;
+  }
+
+  .iconos{
+    margin-top: 300px;
+    left: -50px;
+  }
+
+  .iconos i{
+    font-size: 27px;
+    margin: 10px;
+  }
+
+  .contenedor-tarjetas {
+    gap: 40px; /* Espacio entre las tarjetas */
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 4%;
+    margin-top: -50px;
+}
+
+.tarjeta {
+    padding: 10px;
+    width: 550px;
+    height: 800px;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  top: 130px;
+  left: 40px;
+  font-size: 50px;
+  width: 200px;
+}
+
+.tarjeta h2{
+    margin-top: 220px;
+    color: #8E5A37;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+                                                                                    /* tarejetas 2*/
+  
+.img_fondo_3{
+  height: 120vh;
+  border-top: 20%;
+
+}
+
+.logo2{
+  height: 180px;
+  margin-top: -10%;
+}     
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px){  
+  #conocenos {
+    height: 70vh;
+}
+
+  .fondo_conocenos{
+    height: 70vh;
+}
+
+.mission-section {
+    margin-top: -20px;
+  }
+    
+  .mission-text h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .mission-text p {
+    font-size: 14px;
+  }
+  
+  .mission-image img {
+    width: 450px;
+    height: 380px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    height: 95vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    top: 70px;
+  }
+
+  .titulo h1{
+    font-size: 32px;
+  }
+
+  .iconos{
+    margin-top: 280px;
+    left: -50px;
+  }
+
+  .iconos i{
+    font-size: 25px;
+    margin: 8px;
+  }
+
+  .contenedor-tarjetas {
+    gap: 40px; /* Espacio entre las tarjetas */
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 4%;
+    margin-top: -50px;
+}
+
+.tarjeta {
+    padding: 10px;
+    width: 500px;
+    height: 750px;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  top: 130px;
+  left: 40px;
+  font-size: 50px;
+  width: 190px;
+}
+
+.tarjeta h2{
+    margin-top: 220px;
+    color: #8E5A37;
+    font-size: 23px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+                                                                                    /* tarejetas 2*/
+  
+.img_fondo_3{
+  height: 120vh;
+  border-top: 20%;
+
+}
+
+.logo2{
+  height: 180px;
+  margin-top: -10%;
+}     
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px){
+  #conocenos {
+    height: 70vh;
+}
+
+  .fondo_conocenos{
+    height: 70vh;
+}
+
+.mission-section {
+    margin-top: -20px;
+  }
+    
+  .mission-text h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .mission-text p {
+    font-size: 14px;
+  }
+  
+  .mission-image img {
+    width: 450px;
+    height: 380px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    height: 95vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    top: 70px;
+  }
+
+  .titulo h1{
+    font-size: 32px;
+  }
+
+  .iconos{
+    margin-top: 280px;
+    left: -50px;
+  }
+
+  .iconos i{
+    font-size: 25px;
+    margin: 8px;
+  }
+
+  .contenedor-tarjetas {
+    gap: 40px; /* Espacio entre las tarjetas */
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 4%;
+    margin-top: -50px;
+}
+
+.tarjeta {
+    padding: 10px;
+    width: 500px;
+    height: 750px;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  top: 130px;
+  left: 40px;
+  font-size: 50px;
+  width: 190px;
+}
+
+.tarjeta h2{
+    margin-top: 220px;
+    color: #8E5A37;
+    font-size: 23px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+  
+.img_fondo_3{
+  height: 120vh;
+  border-top: 20%;
+
+}
+
+.logo2{
+  height: 150px;
+  margin-top: -10%;
+}     
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1099px){
+  #conocenos {
+    height: 68vh;
+}
+
+  .fondo_conocenos{
+    height: 70vh;
+}
+
+.mission-section {
+    margin-top: -20px;
+  }
+    
+  .mission-text h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .mission-text p {
+    font-size: 14px;
+  }
+  
+  .mission-image img {
+    width: 350px;
+    height: 350px;
+    margin-right: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .img_fondo_2{
+    height: 85vh;
+  }
+
+                                                                                         /* tarejetas*/
+
+  .titulo {
+    top: 70px;
+  }
+
+  .titulo h1{
+    font-size: 30px;
+  }
+
+  .iconos{
+    margin-top: 250px;
+    left: -50px;
+  }
+
+  .iconos i{
+    font-size: 25px;
+    margin: 8px;
+  }
+
+  .contenedor-tarjetas {
+    gap: 20px; /* Espacio entre las tarjetas */
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+    margin-right: 6%;
+    margin-top: -50px;
+}
+
+.tarjeta {
+    padding: 10px;
+    width: 450px;
+    height: 650px;
+    margin-top: 10%;
+}
+
+.tarjeta img{
+  top: 130px;
+  left: 40px;
+  font-size: 50px;
+  width: 140px;
+}
+
+.tarjeta h2{
+    margin-top: 220px;
+    color: #8E5A37;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.tarjeta p {
+    font-size: 11px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.tarjeta span{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+  
+.img_fondo_3{
+  height: 100vh;
+  border-top: 20%;
+
+}
+
+.logo2{
+  height: 140px;
+  margin-top: -10%;
+}     
+}

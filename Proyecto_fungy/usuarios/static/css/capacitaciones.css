@@ -1,0 +1,507 @@
+@font-face{
+    font-family: "paso";
+    src: url("../fonts/The Constellation.ttf");
+}
+
+@font-face{
+    font-family: "titulo";
+    src: url("../fonts/calibri-bold.ttf");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#capacitaciones {
+    position: relative;
+    background-image: url('../img/capacitaciones.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.text{
+   position: relative;
+   top: -35%;   
+   text-align: right;
+   margin-right: 10%;
+   color: #8E5A37;
+}
+
+.text h2{
+    font-size: 60px;
+}
+
+.text p{
+    font-family: "paso";
+    font-size: 70px;
+    margin-right: 8%;
+}
+
+.fondo_capacitaciones{
+    background-image: url('../img/fondo_ventas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 100px; /* Espacio entre las tarjetas */
+    justify-content: center;
+    height: 100%; /* Asegura que las tarjetas se centren verticalmente */
+}
+
+.tarjeta {
+    background-image: url('../img/fondo_2.jpg');
+    border-radius: 60px 5px 5px 5px;
+    padding: 20px;
+    width: 650px;
+    height: 500px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.tarjeta h2{
+    margin-top: 60px;
+    font-family: "titulo";
+    color: #8E5A37;
+    font-size: 46px;
+}
+
+.tarjeta p {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.tarjeta span{
+    font-family: "paso";
+    margin-top: 50px;
+    color: #8E5A37;
+    font-size: 30px;
+    float: left;
+}
+
+.contenedor_folleto {
+    position: relative;
+    margin-top: -48%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.contenedor_folleto img{
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
+    width: 550px;
+    height: 600px;
+    text-align: center;
+}
+
+
+.texto-adicional {
+    background-image: url('/static/img/pie_pagina2.jpg');
+    padding: 12%;
+    width: 100%;
+    text-align: center;
+    margin-top:0%; 
+    height: 80px;
+  }
+  
+  .logo2{
+    height: 250px;
+    margin-top: -10%;
+  }
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px){
+}
+@media only screen and (min-width: 1500px) and (max-width: 1599px){ 
+    #capacitaciones {
+        height: 80vh;
+    }
+
+    .text h2{
+        font-size: 40px;
+    }
+    
+    .text p{
+        font-family: "paso";
+        font-size: 50px;
+        margin-right: 8%;
+    }
+    
+    .fondo_capacitaciones{
+        height: 150vh;
+    }
+    
+    .contenedor-tarjetas {
+        gap: 90px; /* Espacio entre las tarjetas */
+    }
+    
+    .tarjeta {
+        padding: 20px;
+        width: 550px;
+        height: 500px;
+        text-align: center;
+        margin-top: -2%;
+    }
+    
+    .tarjeta h2{
+        margin-top: 50px;
+        font-family: "titulo";
+        color: #8E5A37;
+        font-size: 40px;
+    }
+    
+    .tarjeta p {
+        font-size: 21px;
+        margin-top: 40px;
+    }
+    
+    .tarjeta span{
+        font-family: "paso";
+        margin-top: 50px;
+        color: #8E5A37;
+        font-size: 27px;
+        float: left;
+    }
+    
+    .contenedor_folleto {
+        position: relative;
+        margin-top: -48%;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+    
+    .contenedor_folleto img{
+        border-radius: 5px 5px 5px 5px;
+        padding: 20px;
+        width: 450px;
+        height: 500px;
+        text-align: center;
+    }
+  
+      .logo2{
+        height: 200px;
+        margin-top: -10%;
+      }
+    
+    
+}
+@media only screen and (min-width: 1400px) and (max-width: 1499px){ 
+    #capacitaciones {
+        height: 75vh;
+    }
+
+    .text h2{
+        font-size: 40px;
+    }
+    
+    .text p{
+        font-size: 50px;
+        margin-right: 8%;
+    }
+    
+    .fondo_capacitaciones{
+        height: 150vh;
+    }
+    
+    .contenedor-tarjetas {
+        gap: 90px; /* Espacio entre las tarjetas */
+    }
+    
+    .tarjeta {
+        padding: 20px;
+        width: 550px;
+        height: 450px;
+        margin-top: -2%;
+    }
+    
+    .tarjeta h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    .tarjeta p {
+        font-size: 21px;
+        margin-top: 40px;
+    }
+    
+    .tarjeta span{
+        margin-top: 50px;
+        font-size: 27px;
+        float: left;
+    }
+    
+    .contenedor_folleto {
+        margin-top: -55%;
+        gap: 40px;
+    }
+    
+    .contenedor_folleto img{
+        padding: 20px;
+        width: 400px;
+        height: 500px;
+ 
+    }
+  
+      .logo2{
+        height: 200px;
+        margin-top: -12%;
+      }     
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px){
+
+    #capacitaciones {
+        height: 75vh;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+    
+    .text p{
+        font-size: 40px;
+        margin-right: 8%;
+    }
+    
+    .fondo_capacitaciones{
+        height: 130vh;
+    }
+    
+    .contenedor-tarjetas {
+        gap: 80px; /* Espacio entre las tarjetas */
+    }
+    
+    .tarjeta {
+        padding: 20px;
+        width: 500px;
+        height: 400px;
+        margin-top: -2%;
+    }
+    
+    .tarjeta h2{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    
+    .tarjeta p {
+        font-size: 19px;
+        margin-top: 40px;
+    }
+    
+    .tarjeta span{
+        margin-top: 50px;
+        font-size: 27px;
+        float: left;
+    }
+    
+    .contenedor_folleto {
+        margin-top: -52%;
+        gap: 30px;
+    }
+    
+    .contenedor_folleto img{
+        padding: 20px;
+        width: 400px;
+        height: 500px;
+    }
+  
+      .logo2{
+        height: 180px;
+        margin-top: -12%;
+      }     
+}
+@media only screen and (min-width: 1200px) and (max-width: 1299px){
+
+    #capacitaciones {
+        height: 70vh;
+    }
+
+    .text h2{
+        font-size: 30px;
+    }
+    
+    .text p{
+        font-size: 35px;
+        margin-right: 8%;
+    }
+    
+    .fondo_capacitaciones{
+        height: 120vh;
+    }
+    
+    .contenedor-tarjetas {
+        gap: 80px; /* Espacio entre las tarjetas */
+    }
+    
+    .tarjeta {
+        padding: 20px;
+        width: 450px;
+        height: 359px;
+        margin-top: -2%;
+    }
+    
+    .tarjeta h2{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    .tarjeta p {
+        font-size: 17px;
+        margin-top: 40px;
+    }
+    
+    .tarjeta span{
+        margin-top: 40px;
+        font-size: 27px;
+        float: left;
+    }
+    
+    .contenedor_folleto {
+        margin-top: -50%;
+        gap: 30px;
+    }
+    
+    .contenedor_folleto img{
+        padding: 20px;
+        width: 350px;
+        height: 400px;
+    }
+  
+      .logo2{
+        height: 180px;
+        margin-top: -12%;
+      }   
+
+}
+@media only screen and (min-width: 1100px) and (max-width: 1199px){
+    #capacitaciones {
+        height: 70vh;
+    }
+
+    .text h2{
+        font-size: 25px;
+    }
+    
+    .text p{
+        font-size: 30px;
+        margin-right: 8%;
+    }
+    
+    .fondo_capacitaciones{
+        height: 100vh;
+    }
+    
+    .contenedor-tarjetas {
+        gap: 75px; /* Espacio entre las tarjetas */
+    }
+    
+    .tarjeta {
+        padding: 20px;
+        width: 400px;
+        height: 300px;
+        margin-top: -2%;
+    }
+    
+    .tarjeta h2{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .tarjeta p {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    
+    .tarjeta span{
+        margin-top: 30px;
+        font-size: 27px;
+        float: left;
+    }
+    
+    .contenedor_folleto {
+        margin-top: -45%;
+        gap: 25px;
+    }
+    
+    .contenedor_folleto img{
+        padding: 20px;
+        width: 320px;
+        height: 350px;
+    }
+  
+      .logo2{
+        height: 170px;
+        margin-top: -12%;
+      }   
+    
+}
+@media only screen and (min-width: 1000px) and (max-width: 1099px){
+    #capacitaciones {
+        height: 65vh;
+    }
+
+    .text h2{
+        font-size: 23px;
+    }
+    
+    .text p{
+        font-size: 27px;
+        margin-right: 8%;
+    }
+    
+    .fondo_capacitaciones{
+        height: 95vh;
+    }
+    
+    .contenedor-tarjetas {
+        gap: 70px; /* Espacio entre las tarjetas */
+    }
+    
+    .tarjeta {
+        padding: 20px;
+        width: 370px;
+        height: 270px;
+        margin-top: -2%;
+    }
+    
+    .tarjeta h2{
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    
+    .tarjeta p {
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    
+    .tarjeta span{
+        margin-top: 30px;
+        font-size: 25px;
+        float: left;
+    }
+    
+    .contenedor_folleto {
+        margin-top: -50%;
+        gap: 15px;
+    }
+    
+    .contenedor_folleto img{
+        padding: 20px;
+        width: 300px;
+        height: 330px;
+    }
+  
+      .logo2{
+        height: 150px;
+        margin-top: -12%;
+      }   
+}
+
+
+
